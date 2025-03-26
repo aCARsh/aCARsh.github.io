@@ -9,6 +9,8 @@ header {
     background: #333;
     color: white;
     padding: 10px;
+    width: 100%;
+    text-align: center
 }
 nav a {
     color: white;
