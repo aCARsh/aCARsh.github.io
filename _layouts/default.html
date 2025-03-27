@@ -8,13 +8,17 @@
 </head>
 <body>
     <header>
-        <h1><a href="{{ '/' | relative_url }}">{{ site.title }}</a></h1>
+    <div class="nav-container">
+        <div class="logo">
+            <a href="{{ '/' | relative_url }}">{{ site.title }}</a>
+        </div>
         <nav>
             <a href="{{ '/achievements.md' | relative_url }}">Achievements</a>
             <a href="{{ '/blog.md' | relative_url }}">Blog</a>
             <a href="{{ '/about.md' | relative_url }}">About</a>
         </nav>
-    </header>
+    </div>
+</header>
     <main>
         {{ content }}
     </main>
