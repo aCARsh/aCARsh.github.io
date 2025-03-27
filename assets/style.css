@@ -1,26 +1,66 @@
+/* General Styles */
 body {
     font-family: Arial, sans-serif;
     line-height: 1.6;
-    max-width: 800px;
+    max-width: 1200px;
     margin: auto;
     padding: 20px;
 }
+
+/* Header Styling */
 header {
-    background: #100;
-    color: white;
-    padding: 10px;
-    width: 100vw; /* Ensure it spans full viewport width */
-    text-align: center;
-    position: relative; /* Prevents any unwanted overlap */
+    background: white; /* Changed to white for a clean look */
+    color: black;
+    padding: 15px 30px;
+    width: 100vw; /* Full width */
+    border-bottom: 2px solid #ddd; /* Subtle bottom border */
+    position: fixed; /* Fixes it at the top */
+    top: 0;
     left: 0;
+    z-index: 1000; /* Ensures it stays above content */
 }
-nav a {
-    color: white;
-    margin-right: 10px;
+
+/* Navbar Container */
+.nav-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 80%;
+    max-width: 1200px;
+    margin: auto;
+}
+
+/* Logo Styling */
+.logo a {
+    font-size: 20px;
+    font-weight: bold;
     text-decoration: none;
+    color: black;
 }
+
+/* Navigation Bar */
+nav {
+    display: flex;
+    gap: 20px;
+}
+
+/* Navigation Links */
+nav a {
+    text-decoration: none;
+    color: black;
+    font-size: 16px;
+    font-weight: normal;
+}
+
+/* Highlight active page */
+nav a:hover {
+    color: blue;
+    font-weight: bold;
+}
+
+/* Footer */
 footer {
     text-align: center;
-    margin-top: 20px;
+    margin-top: 50px;
     font-size: 0.9em;
 }
