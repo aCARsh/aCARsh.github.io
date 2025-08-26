@@ -4,3 +4,7 @@ theme: minima # You can change this to another theme
 baseurl: "" # Leave blank for personal GitHub Pages
 url: "https://akarshsahay.github.io" # Your site URL
 paginate: 5
+header_pages:
+  - achievements.md
+  - blog.md
+  - about.md
